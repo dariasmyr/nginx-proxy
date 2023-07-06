@@ -1,0 +1,17 @@
+version: '3'
+
+networks:
+  psql:
+    name: psql
+
+services:
+  nginx:
+    build: .
+    networks:
+      - psql
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "./configs:/etc/nginx/conf.d"
+      - "./letsencrypt:/etc/letsencrypt"
