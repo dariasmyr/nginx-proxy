@@ -14,6 +14,8 @@ The repository includes the following files:
 
 Before using this repository, ensure that you have Docker and Docker Compose installed on your system.
 
+`https://github.com/GetOutfit/nginx.git`
+
 ## Configuration
 
 To configure the Nginx container with HTTPS support for your specific host, follow these steps:
