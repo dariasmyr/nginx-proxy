@@ -1,6 +1,6 @@
 # Nginx Repository
 
-This repository contains the necessary files to create a reverse proxy for HTTPS connections (Let's Encrypt certificates).
+This repository contains the necessary files to create a reverse proxy using Nginx in a Docker environment. The reverse proxy enables routing of HTTPS connections and utilizes Let's Encrypt certificates to ensure security.
 
 ## Contents
 
