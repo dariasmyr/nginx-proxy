@@ -1,6 +1,6 @@
-# Nginx Repository
+# Nginx Proxy
 
-This repository contains the necessary files to create a reverse proxy using Nginx in a Docker environment. The reverse proxy enables routing of HTTPS connections and utilizes Let's Encrypt certificates to ensure security.
+This repo contains the necessary files to create a reverse proxy using Nginx in a Docker environment. The reverse proxy enables routing of HTTPS connections and utilizes Let's Encrypt certificates to ensure security.
 
 ## Contents
 
@@ -52,3 +52,9 @@ For more information on using Nginx and Certbot, refer to the following document
 **[Nginx Documentation](https://nginx.org/en/docs/)**
 
 **[Certbot Documentation](https://eff-certbot.readthedocs.io/en/stable/)**
+
+### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+### License
+[MIT](https://choosealicense.com/licenses/mit/) © [Daria Smyr](dashasmyr@gmail.com)
