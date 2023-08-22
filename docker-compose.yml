@@ -2,13 +2,13 @@ version: '3'
 
 networks:
   psql:
-    name: psql
+    name: network_name
 
 services:
   nginx:
     build: .
     networks:
-      - psql
+      - network_name
     ports:
       - "80:80"
       - "443:443"

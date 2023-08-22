@@ -14,7 +14,7 @@ The repository includes the following files:
 
 Before using this repository, ensure that you have Docker and Docker Compose installed on your system.
 
-`https://github.com/GetOutfit/nginx.git`
+`npx degit dariasmyr/nginx-proxy my-app`
 
 ## Configuration
 
