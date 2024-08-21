@@ -1,7 +1,5 @@
-version: '3'
-
 networks:
-  psql:
+  network_name:
     name: network_name
 
 services:
